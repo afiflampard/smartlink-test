@@ -3,10 +3,9 @@ services:
   db:
     image: mysql:5.7
     restart: always
+    container_name: smartlink_db
     environment:
-      MYSQL_DATABASE: 'smartlink'
-      MYSQL_USER: 'user'
-      MYSQL_PASSWORD: 'password'
+      MYSQL_DATABASE: 'smartlink' 
       MYSQL_ROOT_PASSWORD: 'password'
     ports:
       - '3306:3306'
@@ -14,5 +13,22 @@ services:
       - '3306'
     volumes:
       - smartlink-db:/var/lib/mysql
+    networks:
+      - backend
+    depends_on:
+      - app
+  
+  app:
+    container_name: smartlink_app
+    build: .
+    ports:
+      - 8000:8000
+    restart: on-failure
+    networks:
+      - backend
+ 
 volumes:
   smartlink-db:
+networks:
+  backend:
+    driver: bridge
