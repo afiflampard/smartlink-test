@@ -13,7 +13,7 @@ You can use this API for Smartlink Test
 ![Screenshot](database.PNG)
 
 ## Use Case
-![Screenshot](smartlinusecase.PNG)
+![Screenshot](smartlinusecase.png)
 
 
 ## API
