@@ -20,10 +20,10 @@ You can use this API for Smartlink Test
 
 ![Screenshot](API.PNG) <br>
 
-1. for user register
+1. for user register <br>
 ![Screenshot](CreateUser.PNG)
 
-2. for user login
+2. for user login <br>
 ![Screenshot](login.PNG)
 
 3. for user layanan <br>
