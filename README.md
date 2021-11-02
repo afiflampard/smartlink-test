@@ -24,7 +24,7 @@ You can use this API for Smartlink Test
 ![Screenshot](login.PNG)
 
 3. for user layanan
-![Screenshot](layanan.PNG)
+![Screenshot](Layanan.PNG)
 
 
 ## Seeder
