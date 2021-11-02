@@ -17,8 +17,11 @@ You can use this API for Smartlink Test
 
 
 ## API
+
+![Screenshot](API.PNG) <br>
+
 1. for user register
-![Screenshot](API.PNG)
+![Screenshot](CreateUser.PNG)
 
 2. for user login
 ![Screenshot](login.PNG)
