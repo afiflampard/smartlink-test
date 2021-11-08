@@ -29,6 +29,8 @@ You can use this API for Smartlink Test
 3. for user layanan <br>
 ![Screenshot](Layanan.PNG)
 
+## Documentation
+https://documenter.getpostman.com/view/10925090/UVC3kntP
 
 ## Seeder
 Login User with seeder
